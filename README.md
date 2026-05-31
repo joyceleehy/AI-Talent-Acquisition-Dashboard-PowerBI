@@ -1,107 +1,85 @@
-# AI Talent Acquisition Dashboard | Power BI + Python + Gemini
+# AI Talent Acquisition Dashboard | Power BI + Python + Gemini AI
 
-## Project Overview
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini%20AI-4285F4?style=flat&logo=google&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat)
 
-This AI Talent Acquisition Dashboard was created using Power BI, Python, and Gemini AI to analyze global hiring performance and convert recruiting data into actionable HR insights.
+---
 
-The project includes two main report pages: a Hiring Overview page and an AI Executive Insights page. The Hiring Overview page tracks key recruiting metrics, while the AI Insights page summarizes hiring risks, anomalies, likely business causes, and recommended actions for leadership.
+## The Problem
 
-The goal of this project is to demonstrate how HR and People Analytics dashboards can move beyond reporting what happened and support faster, more confident talent acquisition decisions.
+Most recruiting dashboards tell you *what happened* — hires made, time to fill, open reqs.
+But they don't tell HR leaders *what to do next*.
+
+This project bridges that gap by combining Power BI reporting with Python and Gemini AI to generate decision-ready insights — not just charts.
+
+---
+
+## What I Built
+
+A two-page Power BI dashboard that analyzes global talent acquisition data and surfaces AI-generated recommendations for hiring leadership.
+
+| Page | Purpose |
+|---|---|
+| Hiring Overview | Tracks KPIs: hires, pipeline, offer acceptance, time to fill, source of hire |
+| AI Executive Insights | Generates risk scores, anomaly flags, likely causes, and prioritized actions |
+
+---
 
 ## Dashboard Preview
 
 ### Hiring Overview
-
 ![Global Talent Acquisition Hiring Overview](Global_Talent_Acquisition_Hiring_Overview.png)
 
 ### AI Executive Insights
-
 ![Global Talent Acquisition AI Insight](Global_Talent_Acquisition_AI_Insight.png)
 
-## Key Highlights
+---
 
-- Total applications: 14,382
-- Total hires YTD: 847
-- Hires vs last year: +67
-- Open requisitions: 213
-- Total offers: 1,024
-- Offer acceptance rate: 82.7%
-- Average time to fill: 33 days
-- Average aging open requisitions: 28 days
-- AI-generated executive summary, department risk scoring, anomaly detection, and recommended actions
+## How It Works
 
-## Dashboard Insights
+---
 
-- Hiring performance improved year over year, with 847 hires YTD and 67 more hires compared to the previous year.
-- Offer acceptance is strong at 82.7%, suggesting a healthy conversion rate from offer to hire.
-- Engineering has the highest number of open requisitions and is flagged as a high-risk department.
-- Engineering also shows slower hiring movement, with average days to fill or aging above the peer threshold.
-- LinkedIn and referrals are the strongest hiring sources based on source-of-hire volume.
-- Aging requisitions are concentrated in Engineering, Sales, and Operations, especially roles aged over 60 and 90 days.
-- The AI Insights page translates hiring data into management-ready recommendations instead of requiring leaders to manually interpret every chart.
+## Key Metrics (Sample Dataset)
 
-## AI Insight Layer
+| Metric | Value |
+|---|---|
+| Total Applications | 14,382 |
+| Total Hires YTD | 847 (+67 vs last year) |
+| Offer Acceptance Rate | 82.7% |
+| Average Time to Fill | 33 days |
+| Open Requisitions | 213 |
+| Avg Aging (Open Reqs) | 28 days |
 
-Python and Gemini AI were used to enhance the dashboard with decision-support outputs, including:
+---
 
-- Executive summaries generated from hiring data
-- Department hiring risk scoring
-- Anomaly detection for slower hiring cycles
-- Likely business cause explanations
-- Prioritized management recommendations
+## AI Layer — What Gemini Generates
 
-This AI layer helps convert operational recruiting data into clear next steps for HR leaders and hiring managers.
+- **Executive summary** — plain-language narrative of hiring health
+- **Department risk scores** — flags Engineering, Sales, Operations as high-risk
+- **Anomaly detection** — identifies departments with hiring cycles above peer threshold
+- **Root cause explanation** — likely business reasons behind the anomalies
+- **Prioritized recommendations** — ranked action items for HR leadership
 
-## Business Impact
+---
 
-This dashboard helps HR, People Analytics, and Talent Acquisition teams:
+## Tools & Skills Used
 
-- Monitor recruiting pipeline health
-- Identify departments with hiring bottlenecks
-- Track source effectiveness and offer acceptance
-- Prioritize aging requisitions that need immediate attention
-- Support recruiting capacity planning and leadership reporting
-- Move from descriptive reporting to AI-assisted decision support
+`Power BI Desktop` `Power Query` `DAX` `Python` `Gemini AI API`
+`Excel` `Data Visualization` `People Analytics` `Business Intelligence`
 
-## Recommendations
+---
 
-- Prioritize aged open requisitions in Engineering, Sales, and Operations.
-- Review recruiter workload and hiring manager response times for high-risk departments.
-- Reassess sourcing channel ROI, especially for lower-performing sources.
-- Investigate offer decline reasons and compare compensation or benefits against market expectations.
-- Set a weekly leadership review for roles aged over 60 days.
+## Repo Notes
 
-## Suggested Actions
+The `.pbix` file, Python scripts, and source dataset are not included to protect API keys and project configuration. Dashboard previews are shown above.
 
-- Create a weekly recruiting risk review using the AI Insights page.
-- Use department risk scores to prioritize recruiter and hiring manager follow-up.
-- Monitor open requisitions by aging bucket to reduce long-running vacancies.
-- Compare source-of-hire performance to optimize sourcing investment.
-- Track offer acceptance and time-to-fill trends monthly to measure recruiting effectiveness.
+---
 
-## Tools Used
+## About Me
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Python
-- Gemini AI
-- Excel
-- Data Visualization
-- People Analytics
-- Talent Acquisition Analytics
-- Business Intelligence
+Data Analyst with a background in People Analytics and BI. Currently open to Data Analyst, BI Analyst, and Analytics roles across industries.
 
-## Files Included
-
-- `Global_Talent_Acquisition_Hiring_Overview.png` - Hiring overview dashboard preview
-- `Global_Talent_Acquisition_AI_Insight.png` - AI executive insights dashboard preview
-
-## Note
-
-The Power BI `.pbix`, Python scripts, and source dataset are not included in this repository to avoid exposing private data, API keys, or sensitive project configuration.
-
-## About This Project
-
-This project was created as part of my data analytics portfolio to demonstrate skills in Power BI dashboard design, People Analytics, Talent Acquisition analytics, Python-assisted analysis, generative AI insight generation, KPI reporting, and business intelligence storytelling.
-
+📎 [LinkedIn](https://www.linkedin.com/in/joyceleehowyee/) · [GitHub Portfolio](https://github.com/joyceleehy)
